@@ -14,7 +14,7 @@ And then:
 
 ```shell
 bundle install
-``
+```
 
 Or install it yourself as:
 
