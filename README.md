@@ -1,5 +1,7 @@
 # ActAsNameable
 
+[![Gem Version](https://badge.fury.io/rb/act_as_nameable.png)](http://badge.fury.io/rb/act_as_nameable)
+
 *Add full name methods on a model*
 
 ## Installation
