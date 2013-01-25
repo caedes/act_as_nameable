@@ -6,7 +6,13 @@
 
 ## Usage
 
-TODO
+```ruby
+class User < ActiveRecord::Base
+  act_as_nameable
+    with: [:first_name, :surname, :middle_name, :second_surname],
+    required: [:first_name, :surname]
+end
+```
 
 ## Installation
 
