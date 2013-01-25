@@ -10,13 +10,7 @@ TODO
 
 ## Installation
 
-Add to Gemfile:
-
-```ruby
-gem 'act_as_nameable'
-```
-
-And then:
+Add `gem 'act_as_nameable'` to Gemfile, then:
 
 ```shell
 bundle install
