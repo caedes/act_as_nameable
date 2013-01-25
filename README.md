@@ -4,6 +4,10 @@
 
 *Add full name methods on a model*
 
+## Usage
+
+TODO
+
 ## Installation
 
 Add to Gemfile:
@@ -24,9 +28,11 @@ Or install it yourself as:
 gem install act_as_nameable
 ```
 
-## Usage
+## Test
 
-TODO
+```shell
+rake
+```
 
 ## Contributing
 
