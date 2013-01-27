@@ -1,10 +1,8 @@
 require 'spec_helper'
 
-class TestRecord < ActiveRecord::Base; end
+describe ActAsNameable do
+  subject { ActAsNameable }
 
-describe TestRecord do
-  subject { TestRecord }
-
-  it { should_not respond_to :root }
-  it { should respond_to :act_as_nameable }
+  it { should respond_to :root }
+  it { subject.root.class.should == Pathname }
 end
